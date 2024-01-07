@@ -27,7 +27,7 @@ class _AppbarCustomState extends State<AppbarCustom> {
                     Colors.limeAccent,Colors.red,Colors.lime])),
 
         ) ,
-        title: Text("User Info",style: TextStyle(color: Colors.white)),
+        title: Text("AppbarCustom",style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.white,
       ),
     );
