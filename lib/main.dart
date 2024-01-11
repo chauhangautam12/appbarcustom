@@ -1,3 +1,4 @@
+import 'package:appbarcustom/Api/Apifeachpractice/Apipractice.dart';
 import 'package:appbarcustom/Appbar/AppbarCustom.dart';
 import 'package:appbarcustom/Drawer/Drawer.dart';
 import 'package:appbarcustom/Droupdownmenu/Droupdownmenu.dart';
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Droupdownmenu(),
+      home:api(),
     );
   }
 }
